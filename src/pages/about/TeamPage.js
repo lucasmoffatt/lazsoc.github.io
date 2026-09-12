@@ -26,6 +26,9 @@ const TeamPage = () => {
             <TeamDisplay fetchId={'1XIGz7wQcCNIBFTprQUvLG'}/>
             <TextLeftRightImage fetchId={'7FcgAC0jho1hejJfaCCtYy'} variant="noButton-inverted"/>
             <TeamDisplay fetchId={'2cT0BimbFImZSQw3TUDvo9'}/>
+            // Philanthropy
+            <TextLeftRightImage fetchId={'7FcgAC0jho1hejJfaCCtYy'} variant="noButton"/>
+            <TeamDisplay fetchId={'5Oo4Csp69MJxYlGpqSdTMr'}/>
             <Footer />
         </div>
     )
