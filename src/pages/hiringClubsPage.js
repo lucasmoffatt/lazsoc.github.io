@@ -6,8 +6,6 @@ import HeaderCarousel from '../components/headerCarousel/headerCarousel';
 import HiringPostSection from '../components/hiringPostSection/hiringPostSection';
 import '../partials/_hiringClubs.scss';
 
-// Not hiring
-/*
 const HiringDisclaimer = () => (
     <div className="hiring-disclaimer">
         <div className="disclaimer-content">
@@ -17,7 +15,6 @@ const HiringDisclaimer = () => (
         </div>
     </div>
 );
-*/
  
 const HiringClubsPage = () => {
     const [hasHiringPosts, setHasHiringPosts] = useState(true);
@@ -29,7 +26,7 @@ const HiringClubsPage = () => {
     return (
         <div className="hiring-clubs-page">
             <div className="beige-background">
-                <HeaderCarousel fetchId={'3SSoJYEr6oOfeLi44BBLMh'} variant="hiringClubsPage" isTopCarousel={true}/>
+                <HeaderCarousel fetchId={'6BojRme8bZeXrRIWwJ2nwa'} variant="hiringClubsPage" isTopCarousel={true}/>
                 <HiringPostSection 
                     fetchId={'3ia2NNjU7h11MwX8XqjMaf'} 
                     onPostsLoaded={handlePostsLoaded}
